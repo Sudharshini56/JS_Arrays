@@ -1,30 +1,37 @@
-let counties = ["usa", "uk", "japan", "canada"];
-//total elements length
-console.log(counties.length);
+//
+let number = [1, 2, 3, 4, 5, 6, 7, 8, "abc", [1, 2], 's']
+console.log(number)
+console.log(number[9])
+console.log(number[9][0])
+console.log(number[9], [1])
 
-//how to find last element
-console.log(counties[counties.length - 1])
-console.log(counties[counties.length - 2])
-
-//assess elements
-console.log(counties[3])
-console.log(counties[1])
-
-//mix of int and string
-
-let body = ["eye", "nose", "hand", "neck", "finger", 1, 2, 3, 4, 5, 6, [1, 2], 'y']
-console.log(body)
-console.log(body[11])
-console.log(body[11][0])
-console.log(body[11][1])
-
-//2end array
 let matrix = [
+
+
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
-];
+
+]
 console.log(matrix)
 console.log(matrix[0])
 console.log(matrix[0][1])
-console.log(matrix[0], [1])
+
+//array methods
+//01
+let array = ['a', 'b', 'c', 'd', 'e']
+console.log(array)
+console.log(array.push('F'))
+console.log(array)
+
+//02
+console.log(array.pop())
+console.log(array)
+
+//03
+console.log(array.shift())
+console.log(array)
+
+//04
+console.log(array.unshift())
+console.log(array)
