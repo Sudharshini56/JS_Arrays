@@ -47,17 +47,24 @@ array.reverse()
 console.log(array)
 
 let str = array.join()
-console.log(str)
+console.log(str) //y,x,b,a
 
 let str1 = "q,r,s,t"
 let aar = str1.split(',')
-console.log(str1)
+console.log(str1) //q,r,s,t
 
-//concat and spread operator
+//concat 
 let firstArr = [1, 2, 3]
 let secondArr = [4, 5, 6]
 let jointArr = firstArr.concat(secondArr)
-console.log(jointArr)
+console.log(jointArr) //[1, 2, 3, 4, 5, 6]
 
+//spread operator
 let joint = [...firstArr, ...secondArr]
-console.log(joint)
+console.log(joint) //[1, 2, 3, 4, 5, 6]
+
+let fruits = ['apple', 'orange', 'mango', 'banana']
+console.log(Array.isArray(fruits))
+console.log(fruits.at(2))
+console.log(array.copyWithin(2, 1))
+console.log(array.flatMap())
